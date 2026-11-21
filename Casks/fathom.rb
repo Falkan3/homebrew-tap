@@ -1,6 +1,6 @@
 cask "fathom" do
-  version "0.8.2"
-  sha256 "785fdad4b3146d4dea313753968278d0bdad156890ed1b2a93afc09f2a651843"
+  version "0.9.0"
+  sha256 "f5948ad38a486cac1bfbb5a9cfe98a441d2a4fb65e5eb170fb8517290675d792"
 
   url "https://cleveral.pl/downloads/fathom/Fathom-#{version}.dmg"
   name "Fathom"
@@ -9,7 +9,7 @@ cask "fathom" do
 
   livecheck do
     url "https://cleveral.pl/downloads/fathom/appcast.xml"
-    strategy :sparkle
+    strategy :sparkle, &:short_version
   end
 
   auto_updates true
