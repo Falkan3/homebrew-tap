@@ -1,6 +1,6 @@
 cask "fathom" do
-  version "0.9.0"
-  sha256 "f5948ad38a486cac1bfbb5a9cfe98a441d2a4fb65e5eb170fb8517290675d792"
+  version "0.9.1"
+  sha256 "5c9b746aa7b777c44e775f3af065b6cb12ac26599916c4bd4c193111e9839dca"
 
   url "https://cleveral.pl/downloads/fathom/Fathom-#{version}.dmg"
   name "Fathom"
